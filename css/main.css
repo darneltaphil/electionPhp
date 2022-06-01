@@ -1,0 +1,153 @@
+@font-face {
+    font-family: "PROXIMA";
+	src: url(ProximaNova-Light.otf) format("opentype");
+}
+#wrapper {
+			width:auto; 
+			margin:30px; 
+			border-radius:0 0 15px 15px;
+			-moz-border-radius:0 0 15px 15px;
+			-webkit-border-radius: 0 0 15px 15px;
+			border:0px solid #ccc; 
+			padding:25px; 
+			padding-top:0px;
+			border-top:none; 
+/*			box-shadow:0 0 20px #000;
+			-moz-box-shadow:0 0 20px #000;
+			-webkit-box-shadow:0 0 20px #000;
+*/			overflow:hidden;
+
+		}
+
+
+/* -- General styles ------------------------------ */
+#reg, #list, #cal {
+	padding:20px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:36px;
+	color:#713800;
+	border:#713800 solid 0px;
+	margin:5px;
+	width:inherit;;
+	transition-property: all;
+	transition-timing-function: ease-in-out;
+	transition-duration:.8s;
+	display:table-cell;
+	}
+
+	
+#class {
+	padding:10px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:46px;
+	color: #713800;
+	display:inline;
+	border:#713800 solid 3px;
+	margin:5px;
+	transition-property: all;
+	transition-timing-function: ease-in-out;
+	transition-duration:.8s;
+	}
+#class a { color:inherit;}
+
+#class:hover {
+	background:#713800;
+	color:#fff;
+	}
+
+table{width:100%;margin:0 0 18px; }     
+table thead{background:#f5f5f5}     
+table thead tr th,table tbody tr td{font-size:14px;line-height:normal;text-align:left}     
+table thead tr td,table tbody tr th{text-transform:uppercase;text-align:left;padding:0 10px 3px 2px;border-bottom:1px dotted #7e8686}    
+ table tbody tr th{padding-top:10px}    
+ table thead tr th{padding:8px 10px 9px;font-size:1.4rem;font-weight:bold;color:#222}     
+ table thead tr th:first-child{border-left:}     
+ table thead tr th:last-child{border-right:none}     
+ table tbody tr td{padding:5px 5px 5px 5px;vertical-align:top;border:none;border-bottom:1px dotted #7e8686; }     
+ table tbody tr:last-child td{border-bottom:}     
+ table h4{margin-top:6px}  
+	
+#display_class{
+	color:#060;
+	font-size:96px}
+/*---------------FORM STYLE----------------*/
+input, select {
+	font-size:25px;
+	border: 1px solid #713800;
+	height:35px;
+}
+textarea {
+	font-size: 13px;
+	border: 1px solid silver;
+}
+button, submit {
+	font-size: 40px;
+	border: 1px solid silver;
+}
+
+
+#table {
+    display: table;
+	width: 100%;
+	border:0px;
+    }
+	
+#tablerow  {
+    display: table-row ;
+    }
+#cell{
+	display: table-cell;
+	background-color: inherit;
+}
+
+#content {
+	display: table;
+	width: 100%;
+	height: inherit;
+	border-right: 0px;
+	border-top: 0px;
+	border-bottom: 0px;
+	border-left: 0px;
+	border-color: #000066;
+	border-style: solid;
+	box-shadow: 0px 0px 20px  0px #000;
+	padding-top: 0px;
+	background: #FFF; 
+    }
+#right {
+	display:table-cell;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:20px;
+	padding-top:0px;
+	line-height:30px;
+	text-align:center;
+	font-size:26px
+	}
+
+
+/*  *******************  classes  ************************* */
+	.topbar {
+	display:table;
+	position: fixed !important ;
+	margin:0;
+	height:25px;
+	width:100%;
+	font-size:16px;
+	padding-top:0px;
+	padding-right:20px;
+	border-bottom: solid 0px #9F9F9F;
+	box-shadow:0 0 13px #000;
+	background:#003;
+	height:40px;
+	/*-moz-box-shadow:0 0 13px #000;
+	-webkit-box-shadow:0 0 13px #000;
+	opacity:0.0;filter:alpha(opacity=0);*/
+	z-index:10000;
+	}
+	.topbar:hover
+	{
+	/*opacity:1.0;filter:alpha(opacity=0);*/ /* For IE8 and earlier */
+	}
+
+

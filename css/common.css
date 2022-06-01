@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+
+body { 
+	 background: url(../img/patterns.jpg)no-repeat center center fixed;
+	  /* background: url(../img/wgh.jpeg) no-repeat center center fixed; */
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	  margin:0; 
+		padding:0px	; 
+		font-family: "Trebuchet MS", Arial, Helvetica, sans-serif
+}
