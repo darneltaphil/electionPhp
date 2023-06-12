@@ -49,11 +49,9 @@
       //include 'canteen.php';
       //include 'library.php';
       ?>
-      <center><button id="vote" class="btn btn-primary display-4 p-5 col-xl-2 mb-5">VOTE</button>
+      <center><button id="vote" class="btn btn-primary display-4 p-5 col-xl-2 mb-5 pt-2">VOTE</button>
     </div>
   </form>
-
-
   <script type="text/javascript" src="/js/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="/js/jquery-confirm.min.js"></script>
   <script type="text/javascript" src="/js/script.js"></script>
